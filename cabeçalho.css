@@ -1,0 +1,7 @@
+.cabeçalho {
+    margin-top: 0px;
+    margin-left: 15px;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(92.74deg, var(--dm-darker) 0%, var(--dm-dark) 50.97%, var(--dm-medium) 99.85%);    
+}

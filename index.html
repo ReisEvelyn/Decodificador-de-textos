@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="sections.css" />
+    <link rel="stylesheet" href="cabeçalho.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&family=Inter&family=Noto+Sans:ital,wght@0,400;1,300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&family=Audiowide&family=Barrio&family=Bungee+Shade&family=Cookie&family=Inter&family=Noto+Sans:ital,wght@0,400;1,300&family=Poppins:wght@300&family=Roboto:wght@300&family=Wallpoet&display=swap");
+    </style>
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.min.css">
+
+    <title>Decodificador de Textos</title>
+  </head>
+  <body>
+    <header>
+      <p class="cabeçalho">
+        <img src="/imagens/darthicon.png" id="refresh-icon" alt="logo darth vader" />
+      </p>
+    </header>
+    <h1 id="titulo">Decodificador de Textos</h1>
+    <div id="page-container">
+      <div class="conteudo">
+        <section class="text-area">
+          <textarea id="encriptar" cols="30" rows="10"></textarea>
+          <button type="button" class="btn" onclick="encriptar()">
+            Encriptar
+          </button>
+        </section>
+        <section class="text-area">
+          <textarea
+          disabled
+            name="desencriptar"
+            id="desencriptar"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button type="button" class="btn" onclick="desencriptar()">
+            Desencriptar
+          </button>
+        </section>
+      </div>
+     <footer id="footer">
+    <div class="social-links">
+      <p>Desenvolvido por Evelyn Reis - 2023</p>
+      <a href="https://github.com/ReisEvelyn">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/evelyn-reis-596670149/">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/evelyngr5/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>     
+      
+    </div>
+    </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
